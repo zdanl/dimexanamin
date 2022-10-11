@@ -33,6 +33,8 @@ void Dimexamin_print_ASCII_arts() {
 	// find it even in glibc
 	if (isprint(ch)) {
 	    printf("%c", ch);
+	} else {
+	    printf("\n");
 	}
     } while (ch != EOF);
 
